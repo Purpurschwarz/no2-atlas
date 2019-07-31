@@ -22,7 +22,22 @@
 		
 		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
+
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+
 	<body>
+		<!-- Header -->
+			<div id="header">
+				<div class="container">
+
+					<!-- Logo -->
+						<h1><a href="#" id="logo">{{ page.title }}</a></h1>
+
+					{% include nav.html %}
+
+				</div>
+			</div>
+
 	{{ content }}
 		<!-- Footer -->
 			<div id="footer">
