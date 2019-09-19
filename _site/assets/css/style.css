@@ -113,6 +113,12 @@
 		vertical-align: text-bottom;
 	}
 
+/* Text */
+
+	.bold {
+		font-weight: bold;
+	}
+
 /* Form */
 
 	input[type="text"],
@@ -228,7 +234,7 @@
 
 /* Lists */
 
-	ol.default {
+/*	ol.default {
 		list-style: decimal;
 		padding-left: 1.25em;
 	}
@@ -367,7 +373,7 @@
 				padding-top: 0;
 				border-top: none;
 			}
-
+/*
 /* Tables */
 
 	table {

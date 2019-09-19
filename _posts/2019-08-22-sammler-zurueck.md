@@ -1,5 +1,5 @@
 ---
-title: XY% der Sammler bereits zurück
+title: NO2 - Atlas Berlin
 featured: images/sammler-einzeln.jpg
 layout: post
 blogentry: XY% der Sammler bereits zurück
