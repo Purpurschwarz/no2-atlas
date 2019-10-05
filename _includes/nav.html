@@ -2,10 +2,10 @@
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Home</a></li>
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog.html">Blog</a></li>
-			<li {% if current[1] == 'mitmachen.html' %}class='current'{% endif %}><a href="/mitmachen.html">Mitmachen</a></li>
-			<li {% if current[1] == 'karte.html' %}class='current'{% endif %}><a href="/karte/index.html" target="_blank">Karte</a></li>
-			<li {% if current[1] == 'projektbeschreibung.html' %}class='current'{% endif %}><a href="/projektbeschreibung.html">Pojektbeschreibung</a></li>
+			<li id="home" {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Home</a></li>
+			<li id="blog" {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog.html">Blog</a></li>
+			<li id="mit" {% if current[1] == 'mitmachen.html' %}class='current'{% endif %}><a href="/mitmachen/mitmachen.html">Mitmachen</a></li>
+			<li {% if current[1] == 'karte.html' %}class='current'{% endif %}><a href="/subdomain.domain.tld/index.html" target="_blank">Karte</a></li>
+			<li id="pro" {% if current[1] == 'projektbeschreibung.html' %}class='current'{% endif %}><a href="/projektbeschreibung.html">Pojektbeschreibung</a></li>
 		</ul>
 	</nav>

@@ -10,9 +10,9 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<!--<meta name=viewport content="width=device-width, initial-scale=1.0">-->
 		<script src="/assets/js/jquery.min.js"></script>
-		<script src="/assets/js/jquery.dropotron.min.js"></script>
+		<!--<script src="/assets/js/jquery.dropotron.min.js"></script>-->
 		<script src="/assets/js/skel.min.js"></script>
 		<script src="/assets/js/skel-layers.min.js"></script>
 		<script src="/assets/js/init.js"></script>
@@ -20,12 +20,11 @@
 			<link rel="stylesheet" type="text/css" href="assets/css/skel.css" />
 			<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		
-		<!--[if lte IE 8]><link rel="stylesheet" href="/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 
-		<!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
-	<body>
+	<body id="blog">
 		<!-- Header -->
 			<div id="header">
 				<div class="container">
@@ -37,11 +36,11 @@
 	<nav id="nav">
 		<ul>
 			
-			<li ><a href="/index.html">Home</a></li>
-			<li ><a href="/blog.html">Blog</a></li>
-			<li ><a href="/mitmachen.html">Mitmachen</a></li>
-			<li ><a href="/karte/index.html" target="_blank">Karte</a></li>
-			<li ><a href="/projektbeschreibung.html">Pojektbeschreibung</a></li>
+			<li id="home" ><a href="/index.html">Home</a></li>
+			<li id="blog" ><a href="/blog.html">Blog</a></li>
+			<li id="mit" ><a href="/mitmachen/mitmachen.html">Mitmachen</a></li>
+			<li ><a href="/subdomain.domain.tld/index.html" target="_blank">Karte</a></li>
+			<li id="pro" ><a href="/projektbeschreibung.html">Pojektbeschreibung</a></li>
 		</ul>
 	</nav>
 
@@ -60,7 +59,7 @@
 					<ul class="style">
 						
 						<li>
-							<a href="/2019/08/22/sammler-zurueck.html"><h2>XY% der Sammler bereits zurück</h2></a>
+							<a href="/2019/08/22/sammler-zurueck.html"><h2>60% der Sammler bereits zurück</h2></a>
 							<a href="/2019/08/22/sammler-zurueck.html"><img class="blogpic" src="/assets/images/sammler-einzeln.jpg" alt=""></a>
 							<p>Bei der <a href="/2019/06/16/lndw.html">langen Nacht der Wissenschaften</a> haben wir ja 100 Sammler unter die Leute gebracht.</p>
 

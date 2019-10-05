@@ -10,9 +10,9 @@
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<!--<meta name=viewport content="width=device-width, initial-scale=1.0">-->
 		<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
-		<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
+		<!--<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>-->
 		<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/init.js"></script>
@@ -20,12 +20,11 @@
 			<link rel="stylesheet" type="text/css" href="assets/css/skel.css" />
 			<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 		
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
 
-		<!--<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>-->
+		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
 
-	<body>
+	<body id="{{ page.bodyid }}">
 		<!-- Header -->
 			<div id="header">
 				<div class="container">

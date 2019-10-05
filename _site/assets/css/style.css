@@ -6,6 +6,15 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 
+#projektbeschreibung #pro a:visited,
+#mitmachen #mit a:visited,
+#start #home a:visited,
+#blog #blog a:visited {
+	color: yellow;
+	font-size: 120%;
+	font-weight: 900;
+}
+
 /* Basic */
 
 	body {
@@ -15,7 +24,7 @@
 	body, input, select, textarea {
 		color: #555555;
 		font-family: 'Raleway', sans-serif;
-		font-size: 13pt;
+		font-size: calc(14px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
 		font-weight: 300;
 		line-height: 1.75em;
 	}
@@ -232,148 +241,6 @@
 			display: none;
 		}
 
-/* Lists */
-
-/*	ol.default {
-		list-style: decimal;
-		padding-left: 1.25em;
-	}
-
-		ol.default li {
-			padding-left: 0.25em;
-		}
-
-	ul {
-		margin: 0;
-		padding: 0;
-	}
-
-		ul.default {
-			list-style: none;
-		}
-
-			ul.default li {
-				display: block;
-				padding: 0.60em 0;
-				border-top: 1px solid;
-				border-color: rgba(192, 192, 192, 0.15);
-			}
-
-			ul.default > :first-child {
-				padding-top: 0;
-				border-top: none;
-			}
-
-		ul.icons {
-			cursor: default;
-		}
-
-			ul.icons li {
-				display: inline-block;
-				line-height: 1em;
-				padding-left: 0.5em;
-			}
-
-				ul.icons li:first-child {
-					padding-left: 0;
-				}
-
-		ul.actions {
-			cursor: default;
-		}
-
-			ul.actions:last-child {
-				margin-bottom: 0;
-			}
-
-			ul.actions li {
-				display: inline-block;
-				padding: 0 0 0 1.5em;
-			}
-
-				ul.actions li:first-child {
-					padding: 0;
-				}
-
-			ul.actions.vertical li {
-				display: block;
-				padding: 1.5em 0 0 0;
-			}
-
-				ul.actions.vertical li:first-child {
-					padding: 0;
-				}
-
-		ul.contact li {
-			padding: 0.5em 0;
-			border-top: 1px solid;
-			border-color: rgba(192, 192, 192, 0.15);
-		}
-
-			ul.contact li > span {
-				display: inline-block;
-			}
-
-			ul.contact li .address, ul.contact li .mail, ul.contact li .phone {
-				float: left;
-				width: 100px;
-				font-weight: 600;
-			}
-
-		ul.contact > :first-child {
-			padding-top: 0;
-			border-top: none;
-		}
-
-		ul.style li {
-			clear: both;
-			display: block;
-			padding-top: 3em;
-		}
-
-		ul.style > :first-child {
-			padding-top: 0;
-		}
-
-		ul.style h3 {
-			display: block;
-			margin: 0;
-			padding-bottom: 0.50em;
-			font-size: 1.1em;
-			font-weight: 700;
-			color: #404040;
-		}
-
-		ul.style .fa {
-			float: left;
-			display: inline-block;
-			width: 80px;
-			height: 80px;
-			margin-right: 1em;
-			background: #3ac984;
-			line-height: 80px;
-			text-align: center;
-			border-radius: 10px;
-			font-size: 2em;
-			color: white;
-		}
-
-		ul.list {
-			list-style: none;
-		}
-
-			ul.list li {
-				display: block;
-				padding: 0.60em 0;
-				border-top: 1px solid;
-				border-color: red;
-			}
-
-			ul.list > :first-child {
-				padding-top: 0;
-				border-top: none;
-			}
-/*
 /* Tables */
 
 	table {
@@ -479,7 +346,7 @@
 		}
 
 		.wrapper.style3 .button {
-			float: right;
+			float: left;
 		}
 
 /* Header */
@@ -639,7 +506,7 @@
 
 		#main .sidebar > :first-child {
 			margin-bottom: 3em;
-		}
+		} 
 
 /* Footer */
 
