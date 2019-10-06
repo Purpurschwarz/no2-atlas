@@ -9,8 +9,8 @@ Am 17. Mai waren wir auf der [Makerfair](https://maker-faire.de/berlin/). Einers
 
 <img class="blogpic" src="/assets/images/photometer-bau.jpg" alt="Photometer im Bau">
 
-Für uns (Löt)anfänger hat das insgesamt schon ein paar Stunden gedauert. Durch die Hilfe der Leute der HAW haben wir alle es jedoch geschafft, am Ende ein eigenes kleines Photometer fertig zu haben. Alle funktionieren und können von uns für die Trügungsmessungen zur NO2-Bestimmung benutzt werden.
+Für uns (Löt)anfänger hat das insgesamt schon ein paar Stunden gedauert. Durch die Hilfe der Leute der HAW haben wir alle es jedoch geschafft, am Ende ein eigenes kleines Photometer fertig zu haben. Alle funktionieren und können von uns für die Trübungsmessungen zur NO2-Bestimmung benutzt werden.
 
-Wer jetzt selbst auf den Geschmack gekommen ist, findet [hier](https://www.haw-hamburg.de/fileadmin/user_upload/FakLS/08LABORE/BPA/WIFI_Photometer_20171116.pdf) eine Bauanleitung.
+Wer jetzt selbst auf den Geschmack gekommen ist, findet [hier](https://www.haw-hamburg.de/fileadmin/user_upload/FakLS/08LABORE/BPA/WIFI_Photometer_20171116.pdf) eine ausführliche Bauanleitung.
 
 
