@@ -17,6 +17,7 @@ bodyid: blog
 						{% for post in site.posts offset: 0 limit: 4 %}
 						<li>
 							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.blogentry }}</h2></a>
+
 							<a href="{{ site.baseurl }}{{ post.url }}"><img class="blogpic" src="{{ site.baseurl }}/assets/{{ post.featured }}" alt=""></a>
 							{{ post.excerpt }}
 						</li>
