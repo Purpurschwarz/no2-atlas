@@ -128,6 +128,13 @@
 		font-weight: bold;
 	}
 
+	.caption {
+		width: 100%;
+		height: 100%;
+		max-width: 600px;
+		font-size: calc(12px + (18 - 14) * ((100vw - 320px) / (1600 - 320)));
+	}
+
 /* Form */
 
 	input[type="text"],
@@ -190,7 +197,7 @@
 
 /* Image */
 
-	.image {
+	/*.image {
 		border: 0;
 		position: relative;
 	}
@@ -213,12 +220,17 @@
 				display: block;
 				width: 100%;
 				max-height: 200px;
-			}
+			}*/
 	
 	.blogpic {
 		width: 100%;
 		height: 100%;
 		max-width: 600px;
+	}
+
+	.logo {
+		width: 60px;
+		height: 40px;
 	}
 
 /* Icon */
