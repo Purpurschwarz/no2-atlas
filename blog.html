@@ -1,0 +1,29 @@
+---
+title: NO2 - Atlas Berlin
+layout: default
+bodyid: blog
+---
+
+<!-- Main -->
+	<div id="main" class="wrapper style1">
+		<div class="container">
+			<section>
+				<div class="10u -1u">
+					<header class="major">
+						<h2>Blog</h2>
+						<!--<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>-->
+					</header>
+					<ul class="style">
+						{% for post in site.posts offset: 0 limit: 4 %}
+						<li>
+							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.blogentry }}</h2></a>
+
+							<a href="{{ site.baseurl }}{{ post.url }}"><img class="blogpic" src="{{ site.baseurl }}/assets/{{ post.featured }}" alt=" "></a>
+							{{ post.excerpt }}
+						</li>
+						{% endfor %}
+					</ul>
+				</div>
+			</section>
+		</div>
+	</div>

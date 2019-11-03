@@ -2,29 +2,27 @@
 	<nav id="nav">
 		<ul>
 			{% assign current = page.url | downcase | split: '/' %}
-			<li {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/index.html">Home</a></li>
-			<!--<li>
-				 <a href="">Dropdown</a>
+			<li id="home" {% if current[1] == 'index.html' %}class='current'{% endif %}><a href="/index.html">Home</a></li>
+			<li id="blog" {% if current[1] == 'blog' %}class='current'{% endif %}><a href="/blog.html">Blog</a></li>
+			<li id="mit">
+				<a href="/mitmachen/mitmachen.html">Mitmachen</a>
 				<ul>
-					<li><a href="#">Lorem ipsum dolor</a></li>
-					<li><a href="#">Magna phasellus</a></li>
-					<li><a href="#">Etiam dolore nisl</a></li>
-					<li>
-						<a href="">Phasellus consequat</a>
+					<li >
+						<a href="/mitmachen/mitmachen-passiv.html">Probenahme mit Passivsammlern</a>
 						<ul>
-							<li><a href="#">Lorem ipsum dolor</a></li>
-							<li><a href="#">Phasellus consequat</a></li>
-							<li><a href="#">Magna phasellus</a></li>
-							<li><a href="#">Etiam dolore nisl</a></li>
-							<li><a href="#">Veroeros feugiat</a></li>
+							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler erhalten">Sammler erhalten</a></li>
+							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler benutzen">Sammler benutzen</a></li>
+							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler zurueckgeben">Sammler zurückgeben</a></li>
 						</ul>
 					</li>
-					<li><a href="#">Veroeros feugiat</a></li>
+					<li><a href="/mitmachen/mitmachen-laborworkshop.html">Im Laborworkshop</a></li>
+					<li><a href="/mitmachen/mitmachen-schule.html">Als Schulprojekts mitmachen</a></li>
+					<li><a href="/mitmachen/mitmachen-sensoren.html">Mit elektrischen Sensoren</a></li>
 				</ul>
-			</li>-->
-			<li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
-			<li {% if current[1] == 'lmitmachen.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/mitmachen.html">Mitmachen</a></li>
-			<li {% if current[1] == 'karte.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/karte.html">Karte</a></li>
-			<li {% if current[1] == 'projektbeschreibung.html' %}class='current'{% endif %}><a href="{{ site.baseurl }}/Projektbeschreibung.html">No Sidebar</a></li>
+			</li>
+			<li id="mess" {% if current[1] == 'messtechnik.html' %}class='current'{% endif %}><a href="/messprinzip.html">Messprinzip</a></li>
+			<li {% if current[1] == 'karte.html' %}class='current'{% endif %}><a href="http://karte.no2-atlas.de/" target="_blank">Karte</a></li>
+			<li id="pro" {% if current[1] == 'projektbeschreibung.html' %}class='current'{% endif %}><a href="/projektbeschreibung.html">Über das Projekt</a></li>
+			<li id="down" {% if current[1] == 'downloads.html' %}class='current'{% endif %}><a href="/downloads.html">Downloads</a></li>
 		</ul>
 	</nav>

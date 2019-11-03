@@ -1,28 +1,42 @@
 <!DOCTYPE HTML>
 <!--
-	Horizons by TEMPLATED
-	templated.co @templatedco
+	Made with Horizons by TEMPLATED
+	by templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
 	<head>
-		<title>{{ page.title }}</title>
+		<title>NO2 - Atlas Berlin</title>
 		<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 		<meta name="description" content="" />
 		<meta name="keywords" content="" />
-		<!--[if lte IE 8]><script src="{{ site.baseurl }}/assets/css/ie/html5shiv.js"></script><![endif]-->
+		<!--<meta name=viewport content="width=device-width, initial-scale=1.0">-->
 		<script src="{{ site.baseurl }}/assets/js/jquery.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/jquery.dropotron.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/skel.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/skel-layers.min.js"></script>
 		<script src="{{ site.baseurl }}/assets/js/init.js"></script>
 		
-			<link rel="stylesheet" type="text/css" href="assets/css/skel.css" />
-			<link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+			<link rel="stylesheet" type="text/css" href="/assets/css/skel.css" />
+			<link rel="stylesheet" type="text/css" href="/assets/css/style.css" />
 		
-		<!--[if lte IE 8]><link rel="stylesheet" href="{{ site.baseurl }}/assets/css/ie/v8.css" /><![endif]-->
 	</head>
-	<body>
+
+
+
+	<body id="{{ page.bodyid }}">
+		<!-- Header -->
+			<div id="header">
+				<div class="container">
+
+					<!-- Logo -->
+						<h1><a href="/index.html" id="logo">BerlinAir NO2-Atlas</a></h1>
+
+					{% include nav.html %}
+
+				</div>
+			</div>
+
 	{{ content }}
 		<!-- Footer -->
 			<div id="footer">
@@ -33,22 +47,22 @@
 							<div class="8u">
 								<section>
 									<header class="major">
-										<h2>&emsp;</h2>
-										<span class="byline">Der NO2-Atlas ist ein Projekt des Fachgebiets Umweltchemie und Luftreinhaltung der TU Berlin</span> <br>
-										<span class="byline">&emsp;</span> <br>
+										<h2><img class="logo" src="/assets/images/TU_Logo_kurz_RGB_rot.svg" /></h2>
+										<span class="byline">  </span>
+											<span class="byline">Der NO2-Atlas ist ein Projekt des Fachgebiets Umweltchemie und Luftreinhaltung der TU Berlin. Es wird finanziert durch die Interne Forschungsförderung (Strategischer Call Citizen Science) der Technischen Universität Berlin.</span> <br>
 										<span class="byline">&emsp;</span>
 									</header>
 									<div class="row">
 										<section class="6u">
 											<ul class="default">
-												<li><a href="copyright.html">Copyright Informationen</a></li>
-												<li><a href="bildnachweise.html">Bildnachweise</a></li>
+												<li><a href="/credits.html">Copyright/Credits</a></li>
+												<li><a href="/bildnachweise.html">Bildnachweise</a></li>
 											</ul>
 										</section>
 										<section class="6u">
 											<ul class="default">
-												<li><a href="impressum.html">Impressum</a></li>
-												<li><a href="datenschutz.html">Datenschutz</a></li>
+												<li><a href="/impressum.html">Impressum</a></li>
+												<li><a href="/datenschutz.html">Datenschutz</a></li>
 											</ul>
 										</section>
 									</div>
@@ -64,28 +78,26 @@
 									-->
 									<ul class="contact">
 										<li>
-											<span class="address">Addresse</span>
+											<span class="address">Adresse:</span>
 											<span>Straße des 17. Juni 135 <br />10623 Berlin</span>
 										</li>
 										<li>
-											<span class="mail">Mail</span>
-											<span><a href="mailto:no2-atlas@uc.tu-berlin.de">no2-atlas@uc.tu-berlin.de</a></span>
+											<span class="mail">Mail:</span>
+											<span><a href="mailto:no2.atlas@uc.tu-berlin.de">no2.atlas@uc.tu-berlin.de</a></span>
 										</li>
 										<li>
-											<span class="phone">Telefon</span>
-											<span>+49 30 314-</span>
+											<span class="phone">Telefon:</span>
+											<span>+49 30 314-25218</span>
 										</li>
 									</ul>
 								</section>
 							</div>
 						</div>
-
-					<!-- Copyright 
-						<div class="copyright">
+ 
+						<!--<div class="copyright">
 							Design: <a href="http://templated.co">TEMPLATED</a> Images: <a href="http://unsplash.com">Unsplash</a> (<a href="http://unsplash.com/cc0">CC0</a>)
-							Jekyll Template: <a href="http://cloudcannon.com">Cloud Cannon</a>
 						</div>
-					-->
+						-->
 				</div>
 			</div>
 
