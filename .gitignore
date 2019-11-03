@@ -1,2 +1,4 @@
-_site/
+karte/*
 .sass-cache/
+
+*.mp4
