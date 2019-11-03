@@ -3,6 +3,7 @@ title: NO2 - Atlas Berlin
 featured: images/sammler-einzeln.jpg
 layout: post
 blogentry: 60% der Sammler bereits zurück
+bodyid: blog
 ---
 
 Bei der [langen Nacht der Wissenschaften](/2019/06/16/lndw.html) haben wir ja 100 Sammler unter die Leute gebracht.

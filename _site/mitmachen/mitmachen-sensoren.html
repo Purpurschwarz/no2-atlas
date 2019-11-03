@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <!--
-	Horizons by TEMPLATED
-	templated.co @templatedco
+	Made with Horizons by TEMPLATED
+	by templated.co @templatedco
 	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
 -->
 <html>
@@ -12,7 +12,7 @@
 		<meta name="keywords" content="" />
 		<!--<meta name=viewport content="width=device-width, initial-scale=1.0">-->
 		<script src="/assets/js/jquery.min.js"></script>
-		<!--<script src="/assets/js/jquery.dropotron.min.js"></script>-->
+		<script src="/assets/js/jquery.dropotron.min.js"></script>
 		<script src="/assets/js/skel.min.js"></script>
 		<script src="/assets/js/skel-layers.min.js"></script>
 		<script src="/assets/js/init.js"></script>
@@ -22,9 +22,9 @@
 		
 	</head>
 
-		<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
-		
-	<body id="">
+
+
+	<body id="mitmachen">
 		<!-- Header -->
 			<div id="header">
 				<div class="container">
@@ -38,9 +38,24 @@
 			
 			<li id="home" ><a href="/index.html">Home</a></li>
 			<li id="blog" ><a href="/blog.html">Blog</a></li>
-			<li id="mit" ><a href="/mitmachen/mitmachen.html">Mitmachen</a></li>
-			<li id="mess" ><a href="/messtechnik.html">Messtechnik</a></li>
-			<li ><a href="http://karte.no2-atlas.de/index.html" target="_blank">Karte</a></li>
+			<li id="mit">
+				<a href="/mitmachen/mitmachen.html">Mitmachen</a>
+				<ul>
+					<li >
+						<a href="/mitmachen/mitmachen-passiv.html">Probenahme mit Passivsammlern</a>
+						<ul>
+							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler erhalten">Sammler erhalten</a></li>
+							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler benutzen">Sammler benutzen</a></li>
+							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler zurueckgeben">Sammler zurückgeben</a></li>
+						</ul>
+					</li>
+					<li><a href="/mitmachen/mitmachen-laborworkshop.html">Im Laborworkshop</a></li>
+					<li><a href="/mitmachen/mitmachen-schule.html">Als Schulprojekts mitmachen</a></li>
+					<li><a href="/mitmachen/mitmachen-sensoren.html">Mit elektrischen Sensoren</a></li>
+				</ul>
+			</li>
+			<li id="mess" ><a href="/messprinzip.html">Messprinzip</a></li>
+			<li ><a href="http://karte.no2-atlas.de/" target="_blank">Karte</a></li>
 			<li id="pro" ><a href="/projektbeschreibung.html">Über das Projekt</a></li>
 			<li id="down" ><a href="/downloads.html">Downloads</a></li>
 		</ul>
@@ -49,22 +64,50 @@
 				</div>
 			</div>
 
-	<!-- Main -->
-	<div id="main" class="wrapper style1">
-		<div class="container">
-			<section>
-				<header class="major">
-					<span class="byline">Mit elektrischen Sensoren Echtzeitwerte aufnehmen</span>
-				</header>
+	        <!--mitmachen Sidebar-->
+            <div id="main" class="wrapper style1">
+                    <div class="container">
+                        <div class="row">
+            
+                            <!-- Sidebar -->
+                            <div id="sidebar" class="4u sidebar">
+                                <section>
+                                    <header class="major">
+                                        <h2>Möglichkeiten</h2>
+                                    </header>
+                                    <ul class="default" id="">
+                                        <li><a href="mitmachen-passiv.html">NO2-Probenahme mit Passivsammlern</a></li>
+                                        <li><a href="mitmachen-laborworkshop.html">Teilnahme an einem Laborworkshop</a></li>
+                                        <li id="mitmachen-schule"><a href="mitmachen-schule.html">Im Rahmen eines Schulprojekts mitmachen</a></li>
+                                        <li><a href="mitmachen-sensoren.html">Mit elektrischen Sensoren</a></li>
+                                    </ul>
+                                </section>
+                            </div>
+            <div id="content" class="8u skel-cell-important">
+                    <section>
 
-				<div>
-                    <p>Wir wollen prinzipiell auch mal live NO2 Werte messen.</p>
-                    <p>Im Augenblick gibts dafür aber noch keine praktische Möglichkeit, wie wir hier im Blogbeitrag erklären.</p>
-                    <p></p>
-				</div>
-			</section>
-		</div>
+    <!-- Main -->
+	<header class="major">
+		<span class="byline">
+			<h4>Mit elektrischen Sensoren Echtzeitwerte aufnehmen</h4>
+		</span>
+	</header>
+
+	<div>
+		<p>Wir wollen in Zukunft auch live NO2 Werte messen. Allerding ist das nicht ganz unaufwändig.</p>
+		<p>Warum, das erklären wir <a href="/2019/10/30/sensoren.html">hier im Blogbeitrag</a>.</p>
+		<p></p>
 	</div>
+
+
+            </div>
+                </section>
+                        
+
+                        </div>
+                    </div>
+            </div>
+
 		<!-- Footer -->
 			<div id="footer">
 				<div class="container">
@@ -74,11 +117,9 @@
 							<div class="8u">
 								<section>
 									<header class="major">
-										<h2>&emsp;</h2>
-										<span class="byline"> <img class="logo" src="/assets/images/TU_Logo_kurz_RGB_rot.svg" />
-											Der NO2-Atlas ist ein Projekt des Fachgebiets Umweltchemie und Luftreinhaltung der TU Berlin</span> <br>
-										<span class="byline">
-											Es wird finanziert durch die Interne Forschungsförderung (Strategischer Call Citizen Science) der Technischen Universität Berlin</span> <br>
+										<h2><img class="logo" src="/assets/images/TU_Logo_kurz_RGB_rot.svg" /></h2>
+										<span class="byline">  </span>
+											<span class="byline">Der NO2-Atlas ist ein Projekt des Fachgebiets Umweltchemie und Luftreinhaltung der TU Berlin. Es wird finanziert durch die Interne Forschungsförderung (Strategischer Call Citizen Science) der Technischen Universität Berlin.</span> <br>
 										<span class="byline">&emsp;</span>
 									</header>
 									<div class="row">
