@@ -1,0 +1,23 @@
+---
+layout:
+---
+
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+      <loc>http://no2-atlas.de/index.html</loc>
+      <priority>1.0</priority>
+    </url>
+  {% for post in site.posts %}
+    <url>
+      <loc>http://no2-atlas.de{{ site.baseurl }}{{ post.url }}</loc>
+      <priority>0.5</priority>
+    </url>
+  {% endfor %}
+  {% for page in site.pages %}
+    <url>
+      <loc>http://no2-atlas.de{{ site.baseurl }}{{ page.url }}</loc>
+          <priority>0.5</priority>
+    </url>
+  {% endfor %}
+</urlset>
