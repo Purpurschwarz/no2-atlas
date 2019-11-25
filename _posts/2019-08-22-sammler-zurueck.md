@@ -6,8 +6,5 @@ blogentry: 60% der Sammler bereits zurück
 bodyid: blog
 ---
 
-Bei der [langen Nacht der Wissenschaften](/2019/06/16/lndw.html) haben wir ja 100 Sammler unter die Leute gebracht.
+Während der [langen Nacht der Wissenschaften](/2019/06/16/lndw.html) konnten alle vorbereiteten 100 Sammlersets an interessierte Bürger*innen ausgegeben werden. Inzwischen sind schon über 60% davon wieder zurück gekommen, was uns wirklich freut. Um den NO2-Atlas so detailliert wie möglich auszuarbeiten, ist jeder zurückgebrachte Sammler eine Hilfe! Auch wenn währen der Sammlung etwas nicht geklappt hat, oder es anderweitig Probleme gab, werden die Sammler gerne wieder zurückgenommen, damit das Material gereinigt werden kann. Dies schont die Umwelt und spart Zeit und Geld. Vielen Dank für Ihre Mitarbeit! 
 
-Inzwischen sind schon über 60% davon wieder zurück gekommen, was uns wirklich freut. Falls noch welche da draußen sind, die nicht nicht zurück zu uns gefunden haben, freuen wir uns natürlich trotzdem doll, wenn wir die auch noch bekommen ;)
-
-Selbst wenn die Messung aus irgendeinem Grund nicht wie vorgesehen geklappt hat, würde es und sehr helfen, das Material zurück zu bekommen. Das können wir dann aufbereiten und wieder verwenden, was Geld und Zeit spart und außerdem die Umwelt schont.

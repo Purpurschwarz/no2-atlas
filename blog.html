@@ -14,12 +14,14 @@ bodyid: blog
 						<!--<span class="byline">Integer sit amet pede vel arcu aliquet pretium</span>-->
 					</header>
 					<ul class="style">
-						{% for post in site.posts offset: 0 limit: 4 %}
+						{% for post in site.posts offset: 0 limit: 10 %}
 						<li>
-							<a href="{{ site.baseurl }}{{ post.url }}"><h2>{{ post.blogentry }}</h2></a>
-
+							<a href="{{ site.baseurl }}{{ post.url }}"><h2 id="blogheadline">{{ post.blogentry }}</h2></a>
+							<p id="blogdate">{{ post.date | date_to_string }} </p>
 							<a href="{{ site.baseurl }}{{ post.url }}"><img class="blogpic" src="{{ site.baseurl }}/assets/{{ post.featured }}" alt=" "></a>
-							{{ post.excerpt }}
+							{{ post.excerpt | excerpt_to_string }}
+							<div id="weiterlesen"><a href="{{ site.baseurl }}{{ post.url }}">Weiterlesen...</div> </span>
+							
 						</li>
 						{% endfor %}
 					</ul>

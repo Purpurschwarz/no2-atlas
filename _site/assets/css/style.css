@@ -126,6 +126,10 @@
 
 /* Text */
 
+	p {
+		max-width: 800px;
+	}
+
 	summary {
 		font-size: 1.25em;
 		color: inherit;
@@ -156,6 +160,19 @@
 
 	.indent {
 		margin-left: 20px;
+	}
+
+	#blogheadline {
+		margin-bottom: -10px;
+	}
+	#blogdate {
+		margin: 10px 0 10px 0;
+		font-style: italic;
+	}
+
+	#weiterlesen {
+		position: top;
+		margin: -30px 0 30px 0;
 	}
 
 /* Form */
