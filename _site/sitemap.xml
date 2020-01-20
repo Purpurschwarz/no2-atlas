@@ -87,12 +87,22 @@
     </url>
   
     <url>
+      <loc>http://no2-atlas.de/messtechnik.html</loc>
+          <priority>0.5</priority>
+    </url>
+  
+    <url>
       <loc>http://no2-atlas.de/mitmachen/mitmachen-laborworkshop.html</loc>
           <priority>0.5</priority>
     </url>
   
     <url>
       <loc>http://no2-atlas.de/mitmachen/mitmachen-passiv.html</loc>
+          <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>http://no2-atlas.de/mitmachen-passiv.html</loc>
           <priority>0.5</priority>
     </url>
   
@@ -108,6 +118,11 @@
   
     <url>
       <loc>http://no2-atlas.de/mitmachen/mitmachen.html</loc>
+          <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>http://no2-atlas.de/mitmachen.html</loc>
           <priority>0.5</priority>
     </url>
   
