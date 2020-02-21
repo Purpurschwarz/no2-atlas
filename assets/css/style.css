@@ -6,7 +6,7 @@
 @import url("font-awesome.min.css");
 @import url("http://fonts.googleapis.com/css?family=Raleway:100,200,300,400,500,600,700,800,900");
 
-#projektbeschreibung #pro a:visited,
+#pro #pro a:visited,
 #mitmachen #mit a:visited,
 #start #home a:visited,
 #blog #blog a:visited,
@@ -162,7 +162,7 @@
 		margin-left: 20px;
 	}
 
-	#blogheadline {
+	.no-linespacing {
 		margin-bottom: -10px;
 	}
 	#blogdate {
@@ -590,3 +590,11 @@
 		#footer a {
 			color: inherit;
 		}
+
+/* Special Elements */
+
+	.press-iframe {
+		border: 1px solid black;
+		width: 100%;
+		height: 400px;
+	}
