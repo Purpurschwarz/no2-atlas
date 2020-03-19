@@ -6,6 +6,11 @@
     </url>
   
     <url>
+      <loc>http://no2-atlas.de/2020/03/18/corona.html</loc>
+      <priority>0.5</priority>
+    </url>
+  
+    <url>
       <loc>http://no2-atlas.de/2019/12/09/sammlerrueckgabe.html</loc>
       <priority>0.5</priority>
     </url>
@@ -97,12 +102,12 @@
     </url>
   
     <url>
-      <loc>http://no2-atlas.de/mitmachen-passiv.html</loc>
+      <loc>http://no2-atlas.de/mitmachen/mitmachen-passiv.html</loc>
           <priority>0.5</priority>
     </url>
   
     <url>
-      <loc>http://no2-atlas.de/mitmachen/mitmachen-passiv.html</loc>
+      <loc>http://no2-atlas.de/mitmachen-passiv.html</loc>
           <priority>0.5</priority>
     </url>
   
@@ -133,6 +138,11 @@
   
     <url>
       <loc>http://no2-atlas.de/ueber_das_projekt/projektbeschreibung.html</loc>
+          <priority>0.5</priority>
+    </url>
+  
+    <url>
+      <loc>http://no2-atlas.de/projektbeschreibung.html</loc>
           <priority>0.5</priority>
     </url>
   
