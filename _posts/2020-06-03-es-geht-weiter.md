@@ -8,7 +8,7 @@ bodyid: blog
 
 Überall werden die Einschränkungen aufgrund der Corona-Krise gelockert, so auch an der TU Berlin.
 
-Zwar ist leider noch kein Publikumsverkehr erlaubt, aber zumindest dürfen wir als Mitarbeiter*innen wieder in die Labore.
-Das bedeutet, das wir bislang zwar keine Sammler persönlich ausgeben oder in Empfang nehmen dürfen, aber wir können sie wieder per Post verschicken und auch zurückgeschickt bekommen.
+Zwar ist leider noch kein Publikumsverkehr erlaubt, aber zumindest dürfen wir als Mitarbeiter*innen wieder in die Labore. So können wir Ihnen ab sofort wieder NO2-Sammelröhrchen bereitstellen. Die Ausgabe und Rückgabe der Sammler erfolgen dabei ausschließlich über den Postweg.  
 
-Wenn Sie also Interesse an der NO2-Messung haben, schreiben sie uns einfach eine Mail an [no2 (punkt) atlas ätt tu-berlin (punkt) de](mailto:no2 (punkt) atlas (ätt) uc.tu-berlin (punkt) de), wir finden bestimmt einen Weg, Ihnen einen Sammler zukommen zu lassen!
+Wenn Sie also Interesse an der NO2-Messung haben, schreiben sie uns einfach eine Mail an no2 (punkt) atlas ätt tu-berlin (punkt) de und wir lassen Ihnen die Sammler kostenfrei zukommen. 
+
