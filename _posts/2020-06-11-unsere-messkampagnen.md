@@ -27,5 +27,9 @@ Auch die Senatsverwaltung misst an 23 Punkten in Berlin die NO2-Belastung mit [P
 
 # Messung durch das Reiner Lemoine Institut:
 
-An einigen Stellen misst das Reiner Lemoine Institut im Rahmen [eines eigenen Projektes](https://reiner-lemoine-institut.de/messkampagne-begonnen-zum-potenzial-der-elektromobilitaet-fuer-die-luftqualitaet/) in Zusammenarbeit mit der TU ebenfalls NO2 mit Passivsammlern. Auch diese Messpunkte sind eingepflegt.
+An einigen Stellen misst das Reiner Lemoine Institut NO2 im Rahmen [eines eigenen Projektes](https://reiner-lemoine-institut.de/messkampagne-begonnen-zum-potenzial-der-elektromobilitaet-fuer-die-luftqualitaet/) welches vom Wirtschaftsministerium gefördert wird.Die Auswertung geschieht in Zusammenarbeit mit der TU. Auch diese Messpunkte sind eingepflegt.
+
+<img class="portrait" style="height: 200px; width: auto;" src="/assets/images/BMWi.svg" />
+
+
 

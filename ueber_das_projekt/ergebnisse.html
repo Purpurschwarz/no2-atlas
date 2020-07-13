@@ -1,0 +1,84 @@
+---
+title: NO2-Atlas Berlin
+layout: default
+bodyid: pro
+---
+
+<div id="main" class="wrapper style1">
+    <div class="container">
+        <section>
+            <header class="major">
+                <h2>Ergebnisse</h2>
+            </header>
+
+            <button id="tabelleAnzeigenButton" onclick="createTable()">Tabelle anzeigen</button>
+            
+            <script>
+                function createTable() {
+                    /*var button = document.getElementById("tabelleAnzeigenButton");
+                    button.style.display = "none";
+                    var table = document.createElement("table");
+                    table.setAttribute("id", "resultsTable")
+
+                    var array = [12,23,34,67,78];
+                    array.forEach(element => {
+                        var tr = document.createElement("tr")
+                        var td = document.createElement("td");
+                        table.appendChild(tr);
+                        tr.appendChild(td);
+                        var content = document.createTextNode(element);
+                        td.appendChild(content);
+                    });*/
+
+                    const person = {
+                        "einzelpersonen":
+                        [
+                            {
+                                "vorname": "Steffi",
+                                "nachname": "Müller"
+                            },
+
+                            {
+                                "vorname": "Horst",
+                                "nachname": "Schlemmer"
+                            }
+                        ]
+                    }
+
+                    let requestUrl = "https://karte.no2-atlas.de/manifest.json";
+                    let request = new XMLHttpRequest();
+                    request.open("GET", requestUrl);
+                    request.responseType = 'json';
+                    request.send();
+                    request.onload = function() {
+                        const heroes = request.response; 
+                        makeTable(heroes);
+                    }
+
+                    function makeTable(heroes) {
+                        var table = document.createElement('table');
+                        for(var i=0; i<heroes.places.length; i++) {
+                            var tr = document.createElement('tr');
+                            for(var j=0; j<10; j++) {
+                                var td = document.createElement('td');
+                                td.innerHTML = heroes.type;
+                                tr.appendChild(td);
+                            }
+                            table.appendChild(tr);
+                        }
+                        document.getElementById('resultsTable').appendChild(table);
+                    }
+
+                }
+
+            </script>
+
+
+            <div id="resultsTable">
+                
+            </div>
+
+
+        </section>
+    </div>
+</div>

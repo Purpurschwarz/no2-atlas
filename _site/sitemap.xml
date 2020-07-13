@@ -82,6 +82,11 @@
     </url>
   
     <url>
+      <loc>http://no2-atlas.de/ueber_das_projekt/ergebnisse.html</loc>
+          <priority>0.5</priority>
+    </url>
+  
+    <url>
       <loc>http://no2-atlas.de/impressum.html</loc>
           <priority>0.5</priority>
     </url>
