@@ -166,4 +166,9 @@
           <priority>0.5</priority>
     </url>
   
+    <url>
+      <loc>http://no2-atlas.de/ueber_das_projekt/videos.html</loc>
+          <priority>0.5</priority>
+    </url>
+  
 </urlset>
