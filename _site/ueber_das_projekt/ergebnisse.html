@@ -18,6 +18,7 @@
 		<script src="/assets/js/init.js"></script>
 		<script src="/assets/js/matomo.js"></script>
 		<script src="/assets/js/TableSort.js"></script>
+		<script src="/assets/js/generateTable.js"></script>
 
 		</script>
 		
@@ -49,12 +50,12 @@
 						<a href="/mitmachen/mitmachen-passiv.html">Probenahme mit Passivsammlern</a>
 						<ul>
 							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler erhalten">Sammler erhalten</a></li>
-							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler benutzen">Sammler benutzen</a></li>
+							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler aufhaengen">Sammler aufhängen</a></li>
 							<li><a href="/mitmachen/mitmachen-passiv.html#Sammler zurueckgeben">Sammler zurückgeben</a></li>
 						</ul>
 					</li>
 					<li><a href="/mitmachen/mitmachen-laborworkshop.html">Im Laborworkshop</a></li>
-					<li><a href="/mitmachen/mitmachen-schule.html">Als Schulprojekts mitmachen</a></li>
+					<li><a href="/mitmachen/mitmachen-schule.html">Als Schulprojekt mitmachen</a></li>
 					<li><a href="/mitmachen/mitmachen-sensoren.html">Mit elektrischen Sensoren</a></li>
 				</ul>
 			</li>
@@ -83,117 +84,109 @@
                 <h2>Ergebnisse</h2>
             </header>
 
-            <button id="tabelleAnzeigenButton" onclick="createTable()">Tabelle anzeigen</button>
+            <p>
+                Im Oktober 2018 ist das Projekt BerlinAir NO2-Atlas an den Start gegangen. Ein Jahr nach der ersten größeren Messkampagne 
+                im Rahmen der Langen Nacht der Wissenschaften (LNDW) im Juni 2019 ziehen wir Bilanz. 
+            </p>
+            <p>
+                In der folgenden Tabelle sind alle Zahlen zur Projektbeteiligung an den einzelnen Messkampagnen sowie zu den Messpunkten 
+                auf der Karte zusammengefasst.
+            </p>
+
+            <div >
+                <table>
+                    <thead>
+                        <th>Messkampagne</th>
+                        <th>Schulen</th>
+                        <th>TU-Studierende</th>
+                        <th>Sommer 2019</th>
+                        <th>Winter 2019/2020</th>
+                        <th class="bold">gesamt</th>
+                    </thead>
+                    <tr>
+                        <td>ausgegeben</td>
+                        <td>22</td>
+                        <td>76</td>
+                        <td>118</td>
+                        <td>155</td>
+                        <td class="bold">371</td>
+                    </tr>
+                    <tr>
+                        <td>zurück und ausgewertet</td>
+                        <td>21</td>
+                        <td>46</td>
+                        <td>66</td>
+                        <td>124</td>
+                        <td class="bold">257</td>
+                    </tr>
+                    <tr>
+                        <td>Rücklaufquote (%)</td>
+                        <td>95,5</td>
+                        <td>60,5</td>
+                        <td>55,9</td>
+                        <td>80</td>
+                        <td class="bold">69,3</td>
+                    </tr>
+                    <tr>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                        <td>&nbsp;</td>
+                    </tr>
+                    <tr>
+                        <td>Datenpunkte auf der Karte <br />
+                            (ohne SenUVK, eigene Messungen)</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="bold">220</td>
+                    </tr>
+                    <tr>
+                        <td>Berücksichtigte Messwerte</td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td></td>
+                        <td class="bold">254</td>
+                    </tr>
+                </table>
+            </div>
+
+            <p>
+                Im Jahr 2019 wurden NO2-Messungen im Rahmen verschiedener kleiner und größerer Messkampagnen durchgeführt. Neben insgesamt 22 Schüler*innen haben auch 76 TU-Studierende in verschiedenen Lehrveranstaltungen NO2-Sammler erhalten. Bis auf einen Sammler konnten alle übrigen 21 Sammler der Schüler*innen ausgewertet und so eine Rücklaufquote von fast 96 % erzielt werden. Bei den TU-Studierenden wurden knapp 61 % der Sammler zurückgegeben und ausgewertet
+            </p>
+            <p>
+                Außerhalb von schulischen und universitären Lehrveranstaltungen wurden zwei große Messkampagnen mit interessierten Berliner*innen durchgeführt. 
+            </p>
+            <p>
+                Bei der LNDW im Juni 2019 wurden insgesamt 118 NO2-Sammler an Besucher*innen der Veranstaltung ausgegeben. Davon wurden mit 66 Sammlern etwas mehr als die Hälfte wieder zurückgegeben und vom NO2-Atlas Team ausgewertet. Dies entspricht einer Rücklaufquote von knapp 56 %. Die vergleichsweise geringe Rücklaufquote ist vermutlich darauf zurückzuführen, dass viele Besucher*innen zufällig am Projektstand vorbeigekommen sind und sich im Vorfeld weniger mit der Thematik auseinandergesetzt haben.   
+            </p>
+            <p>
+                Im Winter 2019/2020 war das Interesse am Projekt aufgrund verschiedener Medienauftritte deutlich größer. Insgesamt haben bei dieser Messkampagne 155 interessierte Bürger*innen NO2-Sammler erhalten. Davon wurden mit 121 Sammlern 80 % zurückgegeben und ausgewertet. Ein Grund für die deutlich höhere Rücklaufquote ist, dass die Bürger*innen bei der Wintermesskampagne gezielt auf uns zu gekommen sind, um die Messung durchzuführen. 
+            </p>
+            <p>
+                Bisher wurden seit Projektstart insgesamt 371 Sammler an Bürger*innen aus Berlin und Brandenburg ausgegeben, von denen 257 ausgewertet wurden. Dies entspricht einer gesamten Rücklaufquote von etwa 60 %. Daraus ergeben sich unter Berücksichtigung von Mehrfachmessungen am gleichen Ort sowie teilweise fehlenden Ortsangaben 220 Messpunkte auf unserem interaktiven NO2-Atlas, die ausschließlich von Bürgerwissenschaftler*innen erzeugt wurden. Dies ist für uns ein sehr gutes Ergebnis, mit dem wir so nicht gerechnet hätten. An dieser Stelle möchten wir uns bei allen, die uns bereits unterstützt haben, recht herzlich bedanken.
+            </p>
+            <p>
+                Dennoch haben wir das Ziel einer flächendeckenden Messung noch lange nicht erreicht und freuen uns daher über jede weitere Beteiligung am Projekt.
+            </p>
+            <p>
+                Ihr NO2-Atlas-Team
+            </p>
+
+            <p>
+                Anhang: Durch drücken des "alle Messwerte anzeigen" Buttons werden alle Messwerte in Form einer Tabelle angezeigt. 
+            </p>
+
+            <button id="tabelleAnzeigenButton" onclick="createTable()">alle Messwerte anzeigen</button>
             <button id="tabelleEinblendenButton" onclick="showTable()" style="display: none;" >Tabelle einblenden</button>
             <button id="tabelleAusblendenButton" onclick="hideTable()" style="display: none;" >Tabelle ausblenden</button>
             
-            <script>
-            
-                // only for table in ergebnisse.html
-                
-                function createTable() {
-                    
-                    document.getElementById("tabelleAnzeigenButton").style.display = "none";
-                    document.getElementById("tabelleEinblendenButton").style.display = "none";
-                    document.getElementById("tabelleAusblendenButton").style.display = "block";
-                    document.getElementById("resultsTable").style.display = "block";
-                    var tableCount = 0;
 
-                    // http request
-                    let requestUrl = "https://raw.githubusercontent.com/Purpurschwarz/no2-atlas/master/assets/new.json";
-                    let request = new XMLHttpRequest();
-                    request.open("GET", requestUrl);
-                    request.responseType = 'json';
-                    request.send();
-                    request.onload = function() {
-                        const json = request.response; 
-                        makeTable(json);
-                    }
-
-                    // creating the table and filling it with date from an Rest-API
-                    function makeTable(json) {
-
-                        //making the table be rendered only once
-                        if(tableCount === 0) {
-
-                        // creating the table
-                        var table = document.createElement('table');
-                        table.setAttribute("class", "sortierbar");
-                        
-                        // creating tableheads with class "sortierbar" for sorting
-                        var tableheads = ["Straße", "Hausnr.", "", "", "", "Breite", "Länge", "von", "bis", "Ort", "Kampagne", "Wert", "Sammler"]
-                        var thead = document.createElement("thead");
-                        var tr = document.createElement('tr');
-                        var span = document.createElement('span');
-                        span.setAttribute("class", "block");
-                        for(let h=0; h<tableheads.length; h++) {
-                            var th = document.createElement('th')
-                            var span = document.createElement('span');
-                            span.setAttribute("class", "block");
-                            th.innerHTML = tableheads[h] + "△▽";
-                            th.appendChild(span);
-                            th.setAttribute("class", "sortierbar")
-                            tr.appendChild(th);
-                        }
-                        thead.appendChild(tr);
-                        table.appendChild(thead);
-
-                        var tbody = document.createElement("tbody");
-
-                        // iterating through the places
-                        for(var i=0; i<json.places.length; i++) {
-
-                            // iterating through the different measurements in the same place
-                            for(var j=0; j<json.places[i].measurements.length; j++) {
-                                var tr = document.createElement('tr');
-
-                                    // creating the first columns with the data of the place
-                                    for(var k=0; k<7; k++) {
-                                        
-                                        var td = document.createElement('td');
-                                        td.innerHTML = Object.values(json.places[i])[k];
-                                        tr.appendChild(td);
-                                    }
-
-                                    // creating the other columns with the data of the measurements
-                                    for(var l=0; l<6; l++) {
-                                        var td = document.createElement('td');
-                                        td.innerHTML = Object.values(json.places[i].measurements[j])[l];
-                                        tr.appendChild(td);
-                                    }
-                                    tbody.appendChild(tr);
-                            }
-                        
-                            
-                        }
-                        table.appendChild(tbody);
-                        document.getElementById('resultsTable').appendChild(table);
-                        new JB_tableSort(table);
-                        tableCount++;
-
-                        }
-                    }
-
-                }
-
-                function hideTable() {
-                    document.getElementById("tabelleAnzeigenButton").style.display = "none";
-                    document.getElementById("tabelleEinblendenButton").style.display = "block";
-                    document.getElementById("tabelleAusblendenButton").style.display = "none";
-                    document.getElementById("resultsTable").style.display = "none";
-                }
-
-                function showTable() {
-                    document.getElementById("tabelleEinblendenButton").style.display = "none";
-                    document.getElementById("tabelleAusblendenButton").style.display = "block";
-                    document.getElementById("resultsTable").style.display = "block";
-                }
-
-
-            </script>
-
-
-            <div id="resultsTable">
+            <div class="table-scrollable" id="resultsTable">
                 
             </div>
 

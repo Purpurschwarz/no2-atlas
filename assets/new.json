@@ -256,7 +256,7 @@
                     [
                         {
                             "start": "29.06.2019",
-                            "end": "",
+                            "end": "08.07.2020",
                             "location": "außen",
                             "campaign": "LNdW",
                             "value": 8.7,
@@ -1055,8 +1055,8 @@
             },
 
             {
-                "street": "",
-                "housenumber": "Bruchwitzstr.",
+                "street": "Bruchwitzstr.",
+                "housenumber": "",
                 "plz": "",
                 "bezirk": "",
                 "ortsteil": "",
@@ -1253,7 +1253,7 @@
             },
 
             {
-                "street": "",
+                "street": "spandauer Damm",
                 "housenumber": "",
                 "plz": "",
                 "bezirk": "",
@@ -1504,7 +1504,7 @@
             },
 
             {
-                "street": "",
+                "street": "Westfalenring",
                 "housenumber": "",
                 "plz": "",
                 "bezirk": "",
@@ -3746,6 +3746,15 @@
                             "campaign": "Buerger*innen",
                             "value": 13.6,
                             "name": "TU-258"
+                        },
+
+                        {
+                            "start": "06.01.2020",
+                            "end": "20.01.2020",
+                            "location": "außen",
+                            "campaign": "Buerger*innen",
+                            "value": 21.8,
+                            "name": "TU-259"
                         }
                         
                     ]
@@ -3944,6 +3953,147 @@
                             "campaign": "Buerger*innen",
                             "value": 10,
                             "name": "TU-286"
+                        }
+                        
+                    ]
+            },
+
+            {
+                "street": "Oranienstr.",
+                "housenumber": "",
+                "plz": "",
+                "bezirk": "",
+                "ortsteil": "",
+                "lat": 52.500799,
+                "long": 13.422449,
+                "measurements": 
+                    [
+                        {
+                            "start": "18.03.2020",
+                            "end": "01.04.2020",
+                            "location": "außen",
+                            "campaign": "Buerger*innen",
+                            "value": 12.4,
+                            "name": "TU-337"
+                        }
+                        
+                    ]
+            },
+
+            {
+                "street": "Mayenner Str.",
+                "housenumber": "",
+                "plz": "",
+                "bezirk": "",
+                "ortsteil": "",
+                "lat": 48.827881,
+                "long": 9.313650,
+                "measurements": 
+                    [
+                        {
+                            "start": "06.03.2020",
+                            "end": "19.03.2020",
+                            "location": "Innenraum",
+                            "campaign": "Buerger*innen",
+                            "value": 11.8,
+                            "name": "TU-260"
+                        },
+
+                        {
+                            "start": "06.03.2020",
+                            "end": "19.03.2020",
+                            "location": "Innenraum",
+                            "campaign": "Buerger*innen",
+                            "value": 12.2,
+                            "name": "TU-262"
+                        }
+                        
+                    ]
+            },
+
+            {
+                "street": "Unterer Rosberg",
+                "housenumber": "",
+                "plz": "",
+                "bezirk": "",
+                "ortsteil": "",
+                "lat": 48.838992,
+                "long": 9.314845,
+                "measurements": 
+                    [
+                        {
+                            "start": "06.03.2020",
+                            "end": "20.03.2020",
+                            "location": "außen",
+                            "campaign": "Buerger*innen",
+                            "value": 17.8,
+                            "name": "TU-261"
+                        }
+                        
+                    ]
+            },
+
+            {
+                "street": "Senheimer Str.",
+                "housenumber": "",
+                "plz": "",
+                "bezirk": "",
+                "ortsteil": "",
+                "lat": 52.637208,
+                "long": 13.291841,
+                "measurements": 
+                    [
+                        {
+                            "start": "20.06.2020",
+                            "end": "03.07.2020",
+                            "location": "außen",
+                            "campaign": "Buerger*innen",
+                            "value": 9.4,
+                            "name": "TU-365"
+                        }
+                        
+                    ]
+            },
+
+            {
+                "street": "Skalitzer Str.",
+                "housenumber": "",
+                "plz": "",
+                "bezirk": "",
+                "ortsteil": "",
+                "lat": 52.498572,
+                "long": 13.420705,
+                "measurements": 
+                    [
+                        {
+                            "start": "20.06.2020",
+                            "end": "04.07.2020",
+                            "location": "",
+                            "campaign": "Buerger*innen",
+                            "value": 8,
+                            "name": "TU-369"
+                        }
+                        
+                    ]
+            },
+
+            {
+                "street": "Reichenberger Str.",
+                "housenumber": "",
+                "plz": "",
+                "bezirk": "",
+                "ortsteil": "",
+                "lat": 52.498487,
+                "long": 13.421091,
+                "measurements": 
+                    [
+                        {
+                            "start": ".2020",
+                            "end": ".2020",
+                            "location": "außen",
+                            "campaign": "Buerger*innen",
+                            "value": 9,
+                            "name": "TU-370"
                         }
                         
                     ]
@@ -11302,6 +11452,42 @@
                             "campaign": "Tempo 30",
                             "value": 26.94,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 15,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 78,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 14,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 13,
+                            "name": ""
                         }
                     ]
             },
@@ -11593,6 +11779,42 @@
                             "campaign": "Tempo 30",
                             "value": 37.02,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 25,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 22,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 24,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
                         }
                     ]
             },
@@ -11863,6 +12085,24 @@
                             "location": "",
                             "campaign": "Tempo 30",
                             "value": 47.51,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
                             "name": ""
                         }
                     ]
@@ -12145,6 +12385,42 @@
                             "campaign": "Tempo 30",
                             "value": 53.46,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 34,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 39,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 36,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 47,
+                            "name": ""
                         }
                     ]
             },
@@ -12425,7 +12701,35 @@
                             "campaign": "Tempo 30",
                             "value": 50.67,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 27,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 26,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
                         }
+
                     ]
             },
             {
@@ -12685,6 +12989,42 @@
                             "location": "",
                             "campaign": "Tempo 30",
                             "value": 53.70,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 30,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 22,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 22,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 23,
                             "name": ""
                         }
                     ]
@@ -12966,6 +13306,42 @@
                             "campaign": "Tempo 30",
                             "value": 27.06,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 19,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 12,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 12,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 14,
+                            "name": ""
                         }
                     ]
             },
@@ -13236,6 +13612,42 @@
                             "location": "",
                             "campaign": "Tempo 30",
                             "value": 51.00,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 32,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 21,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 30,
                             "name": ""
                         }
                     ]
@@ -13517,6 +13929,42 @@
                             "campaign": "Tempo 30",
                             "value": 52.70,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 32,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 25,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 45,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 35,
+                            "name": ""
                         }
                     ]
             },
@@ -13770,6 +14218,42 @@
                             "location": "",
                             "campaign": "Tempo 30",
                             "value": 46.18,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 16,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 29,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 46,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 33,
                             "name": ""
                         }
                     ]
@@ -14032,6 +14516,42 @@
                             "location": "",
                             "campaign": "Tempo 30",
                             "value": 37.54,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 47,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 27,
                             "name": ""
                         }
                     ]
@@ -14339,6 +14859,42 @@
                             "campaign": "Tempo 30",
                             "value": 47.88,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 20,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 42,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
                         }
                     ]
             },
@@ -14609,6 +15165,42 @@
                             "campaign": "Tempo 30",
                             "value": 49.59,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 31,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 34,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 48,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 33,
+                            "name": ""
                         }
                     ]
             },
@@ -14869,6 +15461,24 @@
                             "location": "",
                             "campaign": "Tempo 30",
                             "value": 46.33,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 25,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 24,
                             "name": ""
                         }
                     ]
@@ -15160,6 +15770,24 @@
                             "campaign": "Tempo 30",
                             "value": 53.30,
                             "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 42,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 25,
+                            "name": ""
                         }
                     ]
             },
@@ -15441,6 +16069,42 @@
                             "location": "",
                             "campaign": "Tempo 30",
                             "value": 43.14,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 26,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 14,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 26,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 14,
                             "name": ""
                         }
                     ]
@@ -15724,6 +16388,42 @@
                             "campaign": "Tempo 30",
                             "value": 46.32,
                             "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 22,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 11,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 22,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 10,
+                            "name": ""
                         }
                     ]
             },
@@ -15981,6 +16681,42 @@
                             "location": "",
                             "campaign": "Tempo 30",
                             "value": 45.78,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "04.03.2020",
+                            "end": "19.05.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 28,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "19.05.2020",
+                            "end": "02.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 10,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "02.06.2020",
+                            "end": "16.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 34,
+                            "name": ""
+                        },
+
+                        {
+                            "start": "16.06.2020",
+                            "end": "30.06.2020",
+                            "location": "",
+                            "campaign": "Tempo 30",
+                            "value": 23,
                             "name": ""
                         }
 
@@ -17135,7 +17871,7 @@
                 "measurements": 
                     [
                         {
-                            "start": "22.11..2019",
+                            "start": "22.11.2019",
                             "end": "06.12.2019",
                             "location": "außen",
                             "campaign": "Maren-MA",
@@ -17193,7 +17929,7 @@
                 "measurements": 
                     [
                         {
-                            "start": "22.11..2019",
+                            "start": "22.11.2019",
                             "end": "06.12.2019",
                             "location": "außen",
                             "campaign": "Maren-MA",
@@ -17251,7 +17987,7 @@
                 "measurements": 
                     [
                         {
-                            "start": "22.11..2019",
+                            "start": "22.11.2019",
                             "end": "06.12.2019",
                             "location": "außen",
                             "campaign": "Maren-MA",
@@ -17309,7 +18045,7 @@
                 "measurements": 
                     [
                         {
-                            "start": "22.11..2019",
+                            "start": "22.112019",
                             "end": "06.12.2019",
                             "location": "außen",
                             "campaign": "Maren-MA",
@@ -17367,7 +18103,7 @@
                 "measurements": 
                     [
                         {
-                            "start": "22.11..2019",
+                            "start": "22.11.2019",
                             "end": "06.12.2019",
                             "location": "außen",
                             "campaign": "Maren-MA",
@@ -17425,7 +18161,7 @@
                 "measurements": 
                     [
                         {
-                            "start": "22.11..2019",
+                            "start": "22.11.2019",
                             "end": "06.12.2019",
                             "location": "außen",
                             "campaign": "Maren-MA",
