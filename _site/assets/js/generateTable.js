@@ -20,7 +20,7 @@ function createTable() {
         makeTable(json);
     }
 
-    // creating the table and filling it with date from an Rest-API
+    // creating the table and filling it with data from an Rest-API
     function makeTable(json) {
 
         //making the table be rendered only once
@@ -105,7 +105,7 @@ function showTable() {
 function selectTab(tabname) {
 
     // making all tabs darkgrey (not selectet)
-    var tabIds = ['Hintergrund', 'Teilnahme', 'Messergebnis', 'Bisher', 'Sonstiges'];
+    var tabIds = ['Vorstellung', 'Hintergrund', 'Teilnahme', 'Messergebnis', 'Bisher', 'Sonstiges'];
     for(var i = 0; i < 5; i++) {
         y = document.getElementById(tabIds[i]);
         y.classList.replace('isSelected', 'isNotSelected');
@@ -115,11 +115,14 @@ function selectTab(tabname) {
     document.getElementById(tabname).setAttribute("class", "isSelected");
 
     // displaying / hiding the corresponding videos
-    var videoIds = ['video1-1', 'video1-2', 'video1-3', 'video2-2', 'video3-1', 'video3-2', 'video4-1', 'video4-2', 'Sonstiges-Videos'];
-    for(var j = 0; j < 9; j++) {
+    var videoIds = ['video0', 'video1-1', 'video1-2', 'video1-3', 'video2-2', 'video3-1', 'video3-2', 'video4-1', 'video4-2', 'Sonstiges-Videos'];
+    for(var j = 0; j < 10; j++) {
         document.getElementById(videoIds[j]).style.display = "none";
     }
     switch(tabname) {
+        case 'Vorstellung':
+            document.getElementById('video0').style.display = "block";
+            break;
         case 'Hintergrund':
             document.getElementById('video1-1').style.display = "block";
             document.getElementById('video1-2').style.display = "block";
