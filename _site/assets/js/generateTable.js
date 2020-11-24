@@ -104,9 +104,9 @@ function showTable() {
 
 function selectTab(tabname) {
 
-    // making all tabs darkgrey (not selectet)
+    /* making all tabs darkgrey (not selected)*/
     var tabIds = ['Vorstellung', 'Hintergrund', 'Teilnahme', 'Messergebnis', 'Bisher', 'Sonstiges'];
-    for(var i = 0; i < 5; i++) {
+    for(var i = 0; i < 6; i++) {
         y = document.getElementById(tabIds[i]);
         y.classList.replace('isSelected', 'isNotSelected');
     }
@@ -115,8 +115,8 @@ function selectTab(tabname) {
     document.getElementById(tabname).setAttribute("class", "isSelected");
 
     // displaying / hiding the corresponding videos
-    var videoIds = ['video0', 'video1-1', 'video1-2', 'video1-3', 'video2-2', 'video3-1', 'video3-2', 'video4-1', 'video4-2', 'Sonstiges-Videos'];
-    for(var j = 0; j < 10; j++) {
+    var videoIds = ['video0', 'video1-1', 'video1-2', 'video1-3', 'video2-2', 'video2-3', 'video3-1', 'video3-2', 'video4-1', 'video4-2', 'Sonstiges-Videos'];
+    for(var j = 0; j < 11; j++) {
         document.getElementById(videoIds[j]).style.display = "none";
     }
     switch(tabname) {
@@ -130,6 +130,7 @@ function selectTab(tabname) {
             break;
         case 'Teilnahme':
             document.getElementById('video2-2').style.display = "block";
+            document.getElementById('video2-3').style.display = "block";
             break;
         case 'Messergebnis':
             document.getElementById('video3-1').style.display = "block";

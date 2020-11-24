@@ -3788,8 +3788,8 @@
                 "plz": "",
                 "bezirk": "",
                 "ortsteil": "",
-                "lat": 52.517579,
-                "long": 13.419744,
+                "lat": 52.517341,
+                "long": 13.419867,
                 "measurements": 
                     [
                         {
@@ -5297,6 +5297,28 @@
                             "campaign": "Buerger*innen",
                             "value": 26.8,
                             "name": "TU-326"
+                        }
+                        
+                    ]
+            },
+
+            {
+                "street": "Sterndamm",
+                "housenumber": "",
+                "plz": "",
+                "bezirk": "",
+                "ortsteil": "",
+                "lat": 52.444168,
+                "long": 13.504087,
+                "measurements": 
+                    [
+                        {
+                            "start": "05.03.2020",
+                            "end": "19.03.2020",
+                            "location": "außen",
+                            "campaign": "Buerger*innen",
+                            "value": 0.0,
+                            "name": "TU-358"
                         }
                         
                     ]
